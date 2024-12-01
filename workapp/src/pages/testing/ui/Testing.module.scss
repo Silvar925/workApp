@@ -1,0 +1,28 @@
+.testing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__header {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-size: 48px;
+        font-weight: 800;
+    }
+}

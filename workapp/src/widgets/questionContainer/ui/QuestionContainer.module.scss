@@ -1,0 +1,30 @@
+.questionContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    &__content {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding: 40px;
+        background-color: #F7F7F7;
+        border-radius: 20px;
+        width: 886px;
+        height: 530px;
+    }
+
+    &__header {
+        h3 {
+            font-family: 'Montserrat';
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    &__answers {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
